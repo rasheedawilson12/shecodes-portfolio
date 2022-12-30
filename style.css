@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #ec729c;
+  --secondary-color: #f4aeba;
+  --trim-color: #c54c82;
+  --accent-color: #fdfdcb;
+}
+body {
+  background: linear-gradient(90deg, #ee9ca7 0%, #ffdde1 100%);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 52px;
+}
+
+h2 {
+  font-size: 28px;
+  opacity: 0.7;
+}
+
+.container {
+  max-width: 900px;
+}
+.navbar-bg {
+  background-color: var(--primary-color);
+  width: 100%;
+}
+.header {
+  margin-top: 40px;
+}
+.app-btn {
+  background-color: var(--primary-color);
+  display: block;
+  text-align: center;
+}
